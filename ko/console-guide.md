@@ -1,3 +1,7 @@
+## Network > Colocation Gateway > 콘솔 사용 가이드
+
+본 문서에서는 콘솔에서 Colocation Gateway를 다룰 때 필요한 내용을 기술합니다.
+
 ## 코로케이션 게이트웨이
 
 코로케이션 게이트웨이는 NHN Cloud에서 하이브리드로 제공하는 고객의 네트워크를 연결하기 위한 기능이며 한국(평촌) 리전에만 제공됩니다. NHN Cloud에서 하이브리드 서비스를 사용하는 경우에 한정하여 NHN Cloud Zone이 제공되고, 코로케이션 게이트웨이를 이용하여 구성한 VPC에 NHN Cloud Zone을 직접 연결할 수 있습니다.
