@@ -14,8 +14,7 @@
 * **VPC**를 선택합니다.
   > [참고] 선택된 VPC를 **NHN Cloud Zone**과 연결합니다.<br>
 * **NHN Cloud Zone**을 선택합니다.
-  > [참고] NHN Cloud Zone 생성<br>
-  > **NHN Cloud Zone**은 하이브리드 서비스를 이용하는 고객의 온프레미스 환경의 네트워크와 연결된 리소스입니다. **NHN Cloud Zone**생성을 원하는 경우 NHN Cloud 고객 센터 [1:1문의](https://www.toast.com/kr/support/inquiry)로 문의하시면 됩니다.
+  > [참고] **NHN Cloud Zone**은 하이브리드 서비스를 이용하는 고객의 온프레미스 환경의 네트워크와 연결된 리소스입니다. **NHN Cloud Zone**생성을 원하는 경우 NHN Cloud 고객 센터 [1:1문의](https://www.toast.com/kr/support/inquiry)로 문의하시면 됩니다.
 * **확인** 버튼을 클릭합니다.
 
 ### 코로케이션 게이트웨이 조회
