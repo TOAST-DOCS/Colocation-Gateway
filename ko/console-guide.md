@@ -6,12 +6,12 @@
 
 ### 코로케이션 게이트웨이 생성
 아래 설정들을 통해서 **코로케이션 게이트웨이**를 생성할 수 있습니다.
+> [주의] **NHN Cloud Zone**에 정보가 등록되어 있는 **VPC**만 온프레미스 네트워크와 통신이 가능합니다. 온프레미스 네트워크와 통신을 원하는 **VPC**는 **코로케이션 게이트웨이 생성**전에 반드시 NHN Cloud 고객 센터 [1:1문의](https://www.toast.com/kr/support/inquiry)로 문의하시기 바랍니다.
 * **Network > Colocation Gateway**로 이동 합니다.
 * **코로케이션 게이트웨이 생성** 버튼을 클릭하면 생성 화면이 나타납니다.
 * **코로케이션 게이트웨이**에 사용할 **이름**을 입력 합니다.
 * **VPC**를 선택합니다.
   > [참고] 선택된 VPC를 **NHN Cloud Zone**과 연결합니다.<br>
-  > [주의] **NHN Cloud Zone**에 정보가 등록되어 있는 **VPC**만 온프레미스 네트워크와 통신이 가능합니다. 온프레미스 네트워크와 통신을 원하는 **VPC**는 **코로케이션 게이트웨이 생성**전에 반드시 NHN Cloud 고객 센터 [1:1문의](https://www.toast.com/kr/support/inquiry)로 문의하시기 바랍니다.
 * **NHN Cloud Zone**을 선택합니다.
   > [참고] NHN Cloud Zone 생성<br>
   > **NHN Cloud Zone**은 하이브리드 서비스를 이용하는 고객의 온프레미스 환경의 네트워크와 연결된 리소스입니다. **NHN Cloud Zone**생성을 원하는 경우 NHN Cloud 고객 센터 [1:1문의](https://www.toast.com/kr/support/inquiry)로 문의하시면 됩니다.
