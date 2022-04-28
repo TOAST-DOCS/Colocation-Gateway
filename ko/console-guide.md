@@ -30,7 +30,7 @@
 **Network > Colocation Gateway** 페이지에서 삭제할 **코로케이션 게이트웨이**를 선택하고 **코로케이션 게이트웨이 삭제** 버튼을 클릭하면 삭제가 진행됩니다.
 
 ## 코로케이션 게이트웨이 사용
-> [참고] 같은 **NHN Cloud Zone**에 연결된 VPC간 통신은 **NHN Cloud Zone**에서 **코로케이션 게이트웨이 생성**시 VPC에 설정되어 있는 CIDR값을 이용하여 Longest Prefix Matching으로 라우트처리를 합니다. CIDR이 중복되는 경우 중복 대상 중 1개의 **VPC**만 정상 연결됩니다.
+> [참고] 같은 **NHN Cloud Zone**에 연결된 VPC간 통신은 **NHN Cloud Zone**에서 **코로케이션 게이트웨이 생성**시 VPC에 설정되어 있는 CIDR값을 이용하여 Longest Prefix Matching으로 라우트 처리를 합니다. CIDR이 중복되는 경우 중복 대상 중 임의의 1개의 **VPC**만 통신이 됩니다.
 ### 코로케이션 게이트웨이 라우트 설정
 * **Network > VPC > 라우팅**으로 이동합니다.
 * **코로케이션 게이트웨이**를 생성한 **VPC**의 **라우팅 테이블**을 선택합니다.
