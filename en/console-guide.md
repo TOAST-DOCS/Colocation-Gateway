@@ -46,6 +46,6 @@ Communication between VPCs connected to the same NHN Cloud Zone is routed by the
 3. Select the **Route** tab from the **Routing Table** information displayed at the bottom.
 4. Click **Create Route** to display the creation screen.
 5. Enter the **Target CIDR**.<br>
-   * On-premises network CIDR or CIDR of another VPC connected to the same NHN Cloud Zone
+   On-premises network CIDR or CIDR of another VPC connected to the same NHN Cloud Zone
 6. Under **Gateway**, select **TRANSIT_GATEWAY** from the **Select Gateway** list.<br>
    > [Note] The TRANSIT_GATEWAY item can be created using Create Colocation Gateway.
