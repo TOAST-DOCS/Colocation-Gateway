@@ -1,6 +1,6 @@
 ## Network > Colocation Gateway > 개요
 
-**Colocation Gateway** 서비스를 이용하면 NHN Cloud에서 하이브리드로 제공하는 네트워크를 연결할 수 있습니다. 한국(판교), 한국(평촌) 리전에서만 제공됩니다.<br>
+**Colocation Gateway** 서비스를 이용하면 NHN Cloud에서 하이브리드로 제공하는 네트워크를 연결할 수 있습니다.<br>
 NHN Cloud에서 하이브리드 서비스를 사용하는 경우에 한정하여 고객의 온프레미스 네트워크와 연결된 **NHN Cloud Zone**이 제공되고, **Colocation Gateway** 서비스를 이용해 **VPC**와 **NHN Cloud Zone**을 직접 연결할 수 있습니다.
 
 ### 주요 기능
