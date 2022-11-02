@@ -37,7 +37,7 @@
 
 ### 라우트
 
-코로케이션 게이트웨이로 부터 유입된 모든 트래픽이 전달 될 VM Instance의 Port 및 Virtual IP Port를 지정할 수 있습니다. 라우트의 Gateway가 되는 VM Instance에는 Network Appliance VM을 배치하여 VM Instance내부에서 트래픽 제어를 하고 다른 피어링 으로 트래픽을 전달할 수 있습니다.<br>
+코로케이션 게이트웨이로 부터 유입된 모든 트래픽을 처리할 VM Instance의 Port 및 Virtual IP Port를 지정할 수 있습니다. 라우트의 Gateway가 되는 VM Instance에는 Network Appliance VM을 배치하여 VM Instance내부에서 트래픽 제어를 하고 다른 피어링 으로 트래픽을 전달할 수 있습니다.<br>
 * 피어링으로 Hub&Spoke 형태의 VPC 연결을 구성하고 Hub VPC에 위치한 Network Virtual Appliance 로 모든 트래픽을 제어하기 하는 상황에서 고객의 온프레미스 네트워크를 Hub VPC에 Spoke로 추가하기 위해 코로케이션 게이트웨이의 라우트 기능을 활용 할 수 있습니다.  
 
 > [참고] 현재는 한국(평촌), 한국(판교) 리전에서만 기능이 제공됩니다.
