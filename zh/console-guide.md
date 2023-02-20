@@ -37,22 +37,29 @@ To delete a colocation gateway, select the colocation gateway you want to delete
 
 ### Route
 
-You can specify the port and virtual IP port of VM instances that process all traffic coming from the colocation gateway. If you deploy Network Virtual Appliance VM that serves as the gate way for the route, you can control traffic inside the VM instance and forward traffic to other VPC by using the peering feature.<br>
-* You can use the colocation gateway’s route feature to add the customer’s on-premises network to the hub VPC as a spoke in a situation where all traffic is controlled by Network Virtual Appliance in the hub VPC after configuring VPC connection of hub and spoke model through peering. 
+You can specify the port and virtual IP port of VM instances that process traffic coming from the colocation gateway. If you deploy Network Virtual Appliance VM that serves as the gate way for the route, you can control traffic inside the VM instance and forward traffic to other VPC by using the peering feature.<br>
+* You can use the colocation gateway’s route feature to add the customer’s on-premises network to the hub VPC as a spoke in a situation where traffic is controlled by Network Virtual Appliance in the hub VPC after configuring VPC connection of hub and spoke model through peering. 
 
 > [Note] This feature is only available in the Korea (Pangyo) and Korea (Pyeongchon) regions.
+
 #### Create a Route
 
 1. Select a colocation gateway in which you want to set a route.
 2. Select Route in the bottom tab.
-3. Select **Create Route**.
-4. Select a gateway and click Confirm.
+3. Select the **Change Route** button.
+4. Click the **+** button.
+5. Enter the target CIDR.
+6. Select a gateway.
    > [Note] You can only select instance and virtual IP in a gateway.<br>
+7. Click the **Confirm** button.
+
 #### Delete a Route
 
 1. Select a colocation gateway in which you want to delete a route setting.
-2. Select a route.
-3. Click the **Delete Route** button.
+2. Select a route in the botton tab.
+3. Click the **Change Route** button.
+4. Click the **+** button for the route to delete.
+5. Click the **Confirm** button.
 
 ## Use a Colocation Gateway
 
