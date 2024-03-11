@@ -12,4 +12,4 @@ Only when using a hybrid service in NHN Cloud, the **NHN Cloud Zone** connected 
 
 ### NHN Cloud Zone
 
-This is an item that must be selected when creating a colocation gateway. It is a resource connected to the customer's network environment. When a colocation gateway is created, the selected VPC and NHN Cloud Zone are connected. If you want to use a hybrid service, NHN Cloud will create an NHN Cloud Zone resource for you.<br>To use a hybrid service, please contact through [1:1 Inquiry](https://www.toast.com/kr/support/inquiry) of the NHN Cloud Customer Center.
+This is an item that must be selected when creating a colocation gateway. It is a resource connected to the customer's network environment. When a colocation gateway is created, the selected VPC and NHN Cloud Zone are connected. If you want to use a hybrid service, NHN Cloud will create an NHN Cloud Zone resource for you.<br>To use a hybrid service, please contact through [1:1 Inquiry](https://www.nhncloud.com/kr/support/inquiry) of the NHN Cloud Customer Center.
