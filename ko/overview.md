@@ -12,4 +12,4 @@ NHN Cloud에서 하이브리드 서비스를 사용하는 경우에 한정하여
 
 ### NHN Cloud Zone
 
-코로케이션 게이트웨이 생성 시 선택해야 하는 항목으로, 고객의 네트워크 환경과 연결된 리소스입니다. 코로케이션 게이트웨이를 생성하면 선택된 VPC와 NHN Cloud Zone을 연결합니다. 하이브리드 서비스 이용을 원하는 경우, NHN Cloud에서 NHN Cloud Zone 리소스를 생성해 드립니다.<br>하이브리드 서비스를 이용하려면 NHN Cloud 고객 센터 [1:1문의](https://www.toast.com/kr/support/inquiry)로 문의해 주시기 바랍니다.
+코로케이션 게이트웨이 생성 시 선택해야 하는 항목으로, 고객의 네트워크 환경과 연결된 리소스입니다. 코로케이션 게이트웨이를 생성하면 선택된 VPC와 NHN Cloud Zone을 연결합니다. 하이브리드 서비스 이용을 원하는 경우, NHN Cloud에서 NHN Cloud Zone 리소스를 생성해 드립니다.<br>하이브리드 서비스를 이용하려면 NHN Cloud 고객 센터 [1:1문의](/support/inquiry)로 문의해 주시기 바랍니다.
