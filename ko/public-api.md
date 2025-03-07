@@ -28,6 +28,7 @@ X-Auth-Token: {tokenId}
 | tokenId | Header | String | O | 토큰 ID |
 | id | Query | UUID | - | 조회할 코로케이션 게이트웨이 ID |
 | name | Query | String | - | 조회할 코로케이션 게이트웨이 이름 |
+| vpc_id | Query | String | - | 조회할 코로케이션 게이트웨이와 연결된 VPC ID |
 
 
 #### 응답
