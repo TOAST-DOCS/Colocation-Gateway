@@ -34,13 +34,13 @@ X-Auth-Token: {tokenId}
 
 | 이름 | 종류 | 형식 | 설명 |
 |---|---|---|---|
-| colocationgateways | Body | Array | 서비스 게이트웨이 정보 객체 목록 |
-| colocationgateways.id | Body | UUID | 서비스 게이트웨이 ID |
-| colocationgateways.name | Body | String | 서비스 게이트웨이 이름 |
+| colocationgateways | Body | Array | 코로케이션 게이트웨이 정보 객체 목록 |
+| colocationgateways.id | Body | UUID | 코로케이션 게이트웨이 ID |
+| colocationgateways.name | Body | String | 코로케이션 게이트웨이 이름 |
 | colocationgateways.vpc_id | Body | UUID | 연결된 VPC ID |
 | colocationgateways.tenant_id | Body | String | 테넌트 ID |
 | colocationgateways.status | Body | UUID | 리소스 상태 |
-| colocationgateways.description | Body | String | 서비스 게이트웨이 설명 |
+| colocationgateways.description | Body | String | 코로케이션 게이트웨이 설명 |
 | colocationgateways.vpc.name | Body | String | 연결된 VPC 이름 |
 | colocationgateways.vpc.id | Body | String | 연결된 VPC ID |
 | colocationgateways.vpc.cidrv4 | Body | String | 연결된 VPC CIDR |
@@ -89,13 +89,13 @@ X-Auth-Token: {tokenId}
 
 | 이름 | 종류 | 형식 | 설명 |
 |---|---|---|---|
-| colocationgateways | Body | Array | 서비스 게이트웨이 정보 객체 목록 |
-| colocationgateways.id | Body | UUID | 서비스 게이트웨이 ID |
-| colocationgateways.name | Body | String | 서비스 게이트웨이 이름 |
+| colocationgateways | Body | Array | 코로케이션 게이트웨이 정보 객체 목록 |
+| colocationgateways.id | Body | UUID | 코로케이션 게이트웨이 ID |
+| colocationgateways.name | Body | String | 코로케이션 게이트웨이 이름 |
 | colocationgateways.vpc_id | Body | UUID | 연결된 VPC ID |
 | colocationgateways.tenant_id | Body | String | 테넌트 ID |
 | colocationgateways.status | Body | UUID | 리소스 상태 |
-| colocationgateways.description | Body | String | 서비스 게이트웨이 설명 |
+| colocationgateways.description | Body | String | 코로케이션 게이트웨이 설명 |
 | colocationgateways.vpc.name | Body | String | 연결된 VPC 이름 |
 | colocationgateways.vpc.id | Body | String | 연결된 VPC ID |
 | colocationgateways.vpc.cidrv4 | Body | String | 연결된 VPC CIDR |
