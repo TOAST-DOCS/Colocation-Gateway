@@ -8,7 +8,7 @@ This guide describes how to use the **Colocation Gateway** service from the cons
 
 To create a **colocation gateway**, use the following steps:
 
-> [Note] Only VPCs pre-registered in NHN Cloud Zone can communicate with the on-premises network. For VPCs that are required to communicate with the on-premises network, make sure that you contact through [1:1 inquiry](/support/inquiry) of the NHN Cloud Customer Center before creating a colocation gateway.<br>
+> [Note] Only VPCs pre-registered in NHN Cloud Zone can communicate with the on-premises network. For VPCs that are required to communicate with the on-premises network, make sure that you contact through [1:1 inquiry](https://www.nhncloud.com/kr/support/inquiry) of the NHN Cloud Customer Center before creating a colocation gateway.<br>
 > [Caution] If you create a colocation gateway by selecting a VPC that is not pre-registered in the NHN Cloud Zone, communication with the on-premises network is not possible, and only communication with other VPCs connected to the same NHN Cloud Zone is available.
 
 1. Go to **Network > Colocation Gateway**.
@@ -63,11 +63,11 @@ You can specify the port and virtual IP port of VM instances that process traffi
 
 ## Use a Colocation Gateway
 
-Communication between VPCs connected to the same NHN Cloud Zone is routed by the NHN Cloud Zone by the longest prefix matching rule using the CIDR value configured in the VPC when creating a colocation gateway. When CIDRs are overlapped, only one random VPC among the overlapped targets is used for communication.
+To transmit packets to an on-premises network, add a routing path in **Network > Routing**.
 
 ### Configure a Route for a Colocation Gateway
 
-1. Go to **Network > VPC > Routing**.
+1. Go to **Network > Routing**.
 2. Choose the **Routing Table** for the **VPC** where you created the **colocation gateway**.
 3. Select the **Route** tab from the **Routing Table** information displayed at the bottom.
 4. Click **Create Route** to display the creation screen.
