@@ -63,11 +63,11 @@ You can specify the port and virtual IP port of VM instances that process traffi
 
 ## Use a Colocation Gateway
 
-Communication between VPCs connected to the same NHN Cloud Zone is routed by the NHN Cloud Zone by the longest prefix matching rule using the CIDR value configured in the VPC when creating a colocation gateway. When CIDRs are overlapped, only one random VPC among the overlapped targets is used for communication.
+To transmit packets to an on-premises network, add a routing path in **Network > Routing**.
 
 ### Configure a Route for a Colocation Gateway
 
-1. Go to **Network > VPC > Routing**.
+1. Go to **Network > Routing**.
 2. Choose the **Routing Table** for the **VPC** where you created the **colocation gateway**.
 3. Select the **Route** tab from the **Routing Table** information displayed at the bottom.
 4. Click **Create Route** to display the creation screen.
