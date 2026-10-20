@@ -73,9 +73,9 @@ You can specify the port and virtual IP port of VM instances that process traffi
 #### Delete a Route
 
 1. Select a colocation gateway in which you want to delete a route setting.
-2. Select a route in the botton tab.
+2. Select a route in the bottom tab.
 3. Click the **Change Route** button.
-4. Click the **+** button for the route to delete.
+4. Click the **-** button for the route to delete.
 5. Click the **Confirm** button.
 
 <a id="use-a-colocation-gateway"></a>
