@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=fe4217ce25ca -->
 
 <a id="network-colocation-gateway-console-user-guide"></a>
@@ -15,6 +17,9 @@ To create a **colocation gateway**, use the following steps:
 
 > [Note] Only VPCs pre-registered in NHN Cloud Zone can communicate with the on-premises network. For VPCs that are required to communicate with the on-premises network, make sure that you contact through [1:1 inquiry](https://www.nhncloud.com/kr/support/inquiry) of the NHN Cloud Customer Center before creating a colocation gateway.<br>
 > [Caution] If you create a colocation gateway by selecting a VPC that is not pre-registered in the NHN Cloud Zone, communication with the on-premises network is not possible, and only communication with other VPCs connected to the same NHN Cloud Zone is available.
+
+!!! tip "Note"
+    When you create a colocation gateway, a network interface with the device type TRANSIT_GATEWAY is also created. This network interface is deleted together when you delete the colocation gateway, and cannot be deleted directly from the Network Interface Console.
 
 1. Go to **Network > Colocation Gateway**.
 2. If you click **Create Colocation Gateway**, the screen for creation appears.
@@ -47,6 +52,7 @@ To delete a colocation gateway, select the colocation gateway you want to delete
 ### Route { #route }
 
 You can specify the port and virtual IP port of VM instances that process traffic coming from the colocation gateway. If you deploy Network Virtual Appliance VM that serves as the gate way for the route, you can control traffic inside the VM instance and forward traffic to other VPC by using the peering feature.<br>
+
 * You can use the colocation gateway’s route feature to add the customer’s on-premises network to the hub VPC as a spoke in a situation where traffic is controlled by Network Virtual Appliance in the hub VPC after configuring VPC connection of hub and spoke model through peering. 
 
 > [Note] This feature is only available in the Korea (Pangyo) and Korea (Pyeongchon) regions.
