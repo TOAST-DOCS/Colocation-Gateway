@@ -52,6 +52,7 @@ To delete a colocation gateway, select the colocation gateway you want to delete
 ### Route { #route }
 
 You can specify the port and virtual IP port of VM instances that process traffic coming from the colocation gateway. If you deploy Network Virtual Appliance VM that serves as the gate way for the route, you can control traffic inside the VM instance and forward traffic to other VPC by using the peering feature.<br>
+
 * You can use the colocation gateway’s route feature to add the customer’s on-premises network to the hub VPC as a spoke in a situation where traffic is controlled by Network Virtual Appliance in the hub VPC after configuring VPC connection of hub and spoke model through peering. 
 
 > [Note] This feature is only available in the Korea (Pangyo) and Korea (Pyeongchon) regions.
