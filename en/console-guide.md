@@ -1,3 +1,5 @@
+<!-- machine_translated: true -->
+
 <!-- pre-align:aligned sig=fe4217ce25ca -->
 
 <a id="network-colocation-gateway-console-user-guide"></a>
@@ -15,6 +17,9 @@ To create a **colocation gateway**, use the following steps:
 
 > [Note] Only VPCs pre-registered in NHN Cloud Zone can communicate with the on-premises network. For VPCs that are required to communicate with the on-premises network, make sure that you contact through [1:1 inquiry](https://www.nhncloud.com/kr/support/inquiry) of the NHN Cloud Customer Center before creating a colocation gateway.<br>
 > [Caution] If you create a colocation gateway by selecting a VPC that is not pre-registered in the NHN Cloud Zone, communication with the on-premises network is not possible, and only communication with other VPCs connected to the same NHN Cloud Zone is available.
+
+!!! tip "Note"
+    When you create a colocation gateway, a network interface with the device type TRANSIT_GATEWAY is also created. This network interface is deleted together when you delete the colocation gateway, and cannot be deleted directly from the Network Interface Console.
 
 1. Go to **Network > Colocation Gateway**.
 2. If you click **Create Colocation Gateway**, the screen for creation appears.
